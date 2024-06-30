@@ -1,0 +1,598 @@
+/* ===================font part start===================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+/* ===================font part end===================================== */
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #E6B9A6;
+}
+
+/* ============================/navigation menu start==================== */
+.container {
+    width: 1360px;
+    background: #fff;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.main_manubar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.list_part {
+    display: flex;
+    margin-top: 50px;
+}
+
+.list_part ul {
+    list-style: none;
+}
+
+.list_part ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.list_part ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
+    transition: all linear .3s;
+}
+
+.list_part ul li a:hover {
+    text-decoration: underline;
+    color: #E3651D;
+}
+
+.login_part {
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+/* ==========================/navigation menu end======================= */
+/* ========================sweet treats start=========================== */
+.treets {
+    margin-bottom: 170px;
+}
+
+.treets_img {
+    width: 1360px;
+    height: 588px;
+    position: relative;
+}
+
+.treets_para {
+    width: 706px;
+    height: 333px;
+    font-family: "Sail", system-ui;
+    font-size: 110px;
+    font-weight: 400px;
+    color: #F78CA2;
+    position: absolute;
+    top: 500px;
+    text-align: center;
+}
+
+/* =============================sweet treats end========================= */
+/* ==============================about start============================== */
+.main_about {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.left_about {
+    margin-left: 128px;
+}
+
+.left_about a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-decoration: none;
+    transition: all linear .3s;
+    margin-bottom: 24px;
+}
+
+.left_about a:hover {
+    font-size: 30px;
+}
+
+.left_about_welcome {
+    width: 474px;
+    height: 164px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #F78CA2;
+    margin-bottom: 34px;
+}
+
+.left_about_para {
+    width: 539px;
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 54px;
+}
+
+.explore {
+    width: 180px;
+    height: 55px;
+    background: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 55px;
+}
+
+.explore a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.desert {
+    width: 493px;
+    height: 293px;
+    background: transparent;
+    margin-top: 95px;
+}
+
+.right_about {
+    position: relative;
+    margin-top: 100px;
+}
+
+.about_main_img {
+    position: absolute;
+    z-index: 3;
+}
+
+.wing1 {
+    position: absolute;
+    top: -80px;
+    left: -40px;
+}
+
+.wing2 {
+    position: inherit;
+    right: -441px;
+    bottom: -320px;
+}
+
+/* ===========================about end=============================== */
+/* ==========================menu start=============================== */
+.menu_heading {
+    text-align: center;
+}
+
+.menu_heading p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu_heading h1 {
+    font-family: "Sail", system-ui;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FF7E7E;
+}
+
+.menu_parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 80px 20px 0px;
+}
+
+.menu_item {
+    width: 316px;
+    height: 305px;
+    background: #FFEBEF;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.menu_body {
+    width: 224px;
+    height: 242px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu_body img {
+    margin-top: -40px;
+}
+
+.menu_body p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_body span {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #F95B5B;
+}
+
+.menu_body button {
+    width: 120px;
+    height: 35px;
+    background: #F78CA2;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    transition: all linear .2s;
+    cursor: pointer;
+
+}
+
+.menu_body button:hover {
+    font-size: 15px;
+
+}
+
+/* ========================menu end============================== */
+/*  =========================what others say start================ */
+.what_other_say_main {
+    text-align: center;
+}
+
+.others_say_heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.others_say_heading h2 {
+    font-family: "Sail", system-ui;
+    font-size: 64px;
+    font-weight: 400;
+    color: #FF7E7E;
+}
+
+.others_say_para p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3A0606;
+}
+
+.others_say_para {
+    width: 862px;
+    height: 48px;
+    text-align: center;
+}
+
+.person_says_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.people_say {
+    width: 380px;
+    height: 400px;
+    background: #FFEBEF;
+    text-align: center;
+    margin: 135px 0px 40px;
+}
+
+.people_say:nth-child(2) {
+    background: #EB6F89;
+}
+
+.people_say img {
+    margin-top: -100px;
+}
+
+.people_say_para {
+    width: 342px;
+    height: 93px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.people_say_para h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}
+
+.people_say_para p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.people_say ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.people_say ul li {
+    color: #6D0E22;
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 20px;
+
+}
+
+/*  ========================what others say end========================== */
+/* ==========================contact start================================ */
+.contact_main {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 30px;
+}
+
+.contact_heading {
+    text-align: center;
+}
+
+.contact_heading h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #6D0E22;
+}
+
+.contact_heading .sweeten {
+    font-family: "Sail", system-ui;
+    font-size: 64px;
+    font-weight: 400;
+    color: #F78CA2;
+}
+
+.contact_heading .sweeten span {
+    font-family: "Sail", system-ui;
+    font-size: 64px;
+    font-weight: 400;
+    color: #6D0E22;
+}
+
+.clock_body {
+    text-align: left;
+}
+
+.contact_heading .clock {
+    margin-bottom: 40px;
+}
+
+.contact_heading .clock span {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F95B5B;
+    margin-left: 20px;
+}
+
+.contact_heading .location {
+    display: flex;
+    gap: 20px;
+
+}
+
+.contact_heading .location_para {
+    width: 330px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F95B5B;
+}
+
+.contact_heading button {
+    width: 180px;
+    height: 55px;
+    background: url(images/Rectangle\ 2.png);
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.contact_heading button:hover {
+    font-size: 25px;
+}
+
+/* ========================contact end========================================= */
+/* ================image part start============================================= */
+.main_part_image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.main_part_image img:hover {
+    transform: scale(1.03);
+}
+
+/* ================image part end============================================= */
+/* =====================footer part start===================================== */
+footer {
+    background: #FFC3D0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.footer_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+
+.follow {
+    width: 148px;
+    height: 365px;
+    background: #FFEBEF;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-left-radius: 15px;
+}
+
+.follow_heading {
+    position: relative;
+}
+
+.follow_heading h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3A0606;
+}
+
+.follow_heading .stick {
+    width: 50px;
+    height: 1px;
+    background: #F78CA2;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}
+
+.follow .facebook {
+    font-size: 30px;
+    color: #6D0E22;
+    margin-bottom: 30px;
+}
+
+.follow .instagram {
+    font-size: 30px;
+    color: #F95B5B;
+    margin-bottom: 30px;
+}
+
+.follow .linkdin {
+    font-size: 30px;
+    color: #6D0E22;
+    margin-bottom: 30px;
+}
+
+.follow .twiter {
+    font-size: 30px;
+    color: #6D0E22;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    display: flex;
+    gap: 75px;
+}
+
+.paragraph .help {
+    text-align: center;
+}
+
+.paragraph .help h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6D0E22;
+}
+
+.paragraph .help p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6D0E22;
+}
+
+.paragraph .more_candied {
+    text-align: center;
+}
+
+.paragraph .more_candied h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6D0E22;
+}
+
+.paragraph .more_candied p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6D0E22;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3A0606;
+}
+
+.input_main_body {
+    display: flex;
+    justify-content: center;
+}
+
+.signup .input,
+input {
+    font-family: "Poppins", sans-serif;
+    width: 338px;
+    height: 54px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #C0C0C0;
+    border: none;
+
+}
+
+.signup .input_btn,
+button {
+    background: #6D0E22;
+    font-family: "Poppins", sans-serif;
+    width: 90px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+
+.signup .input_btn button {
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.signup .input_btn button:hover {
+    background: #00224D;
+}
+
+/* =========================footer part end========================== */
